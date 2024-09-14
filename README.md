@@ -2,7 +2,7 @@
 
 ### **Descrição:**
 
-Embarque em uma jornada mágica pelos filmes do Studio Ghibli! ‍♂️✨
+Embarque em uma jornada mágica pelos filmes do Studio Ghibli!✨
 
 Este projeto te permite explorar o universo de filmes como "A Viagem de Chihiro", "Meu Vizinho Totoro" e muitos outros. 
 
