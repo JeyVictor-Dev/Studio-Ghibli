@@ -36,8 +36,4 @@ Quer ajudar a melhorar este projeto? Fique à vontade para abrir um pull request
 
 **Vamos juntos criar uma experiência mágica para os fãs do Studio Ghibli!** ✨
 
-**Observações:**
-
-* **Adapte a linguagem:** Sinta-se à vontade para adaptar a linguagem e o tom do README para combinar com o seu estilo e o público-alvo do projeto.
-* **Adicione mais detalhes:** Você pode adicionar mais detalhes técnicos, como a estrutura de pastas, dependências e como executar os testes (se houver).
-* **Utilize imagens e gifs:** Imagens e GIFs podem tornar o README mais visualmente atraente e ajudar a transmitir a ideia do projeto.
+ 
