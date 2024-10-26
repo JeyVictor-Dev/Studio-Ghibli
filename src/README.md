@@ -1,4 +1,4 @@
-[### **Busca Aventura no Mundo de Ghibli🐰🌳🌧️**! - **Imersão Dev com Gemini**
+### **Busca Aventura no Mundo de Ghibli🐰🌳🌧️**! - **Imersão Dev com Gemini**
 
 ### **Descrição:**
 
