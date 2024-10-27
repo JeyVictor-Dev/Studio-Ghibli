@@ -35,5 +35,5 @@ Quer ajudar a melhorar este projeto? Fique à vontade para abrir um pull request
 * **Recomendações:** Sugerir filmes similares com base no histórico de buscas.
 
 **Vamos juntos criar uma experiência mágica para os fãs do Studio Ghibli!** ✨
-](https://github.com/JeyVictor-Dev/Studio-Ghibli.git)
+(https://github.com/JeyVictor-Dev/Studio-Ghibli.git)
  
