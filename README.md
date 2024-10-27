@@ -1,5 +1,7 @@
 ### **Busca Aventura no Mundo de Ghibli🐰🌳🌧️**! - **Imersão Dev com Gemini**
 
+![Imagem do site](image.png)
+
 ### **Descrição:**
 
 Embarque em uma jornada mágica pelos filmes do Studio Ghibli!✨
