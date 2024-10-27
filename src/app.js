@@ -27,7 +27,7 @@ function pesquisar() {
         resultados += `
         <div class="item-resultado">
             <h2>
-                <a href=${dado.trailer}target="_blank">${dado.titulo}</a>
+                <a href=${dado.trailer} onclick="window.open(this.href, '_blank'); return false;">${dado.titulo}</a>
             </h2>
             <p class="descricao-meta">${dado.sinopse}
             </p>
