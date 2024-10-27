@@ -22,7 +22,7 @@ function pesquisar() {
         titulo = dado.titulo.toLowerCase()
         sinopse = dado.sinopse.toLowerCase()
         tags = dado.tags.toLowerCase()
-       //se titulo includes campuPesquisa
+       //se titulo includes campoPesquisa
        if (titulo.includes(campoPesquisa) || sinopse.includes(campoPesquisa) || tags.includes(campoPesquisa)) {
         resultados += `
         <div class="item-resultado">
