@@ -54,5 +54,13 @@ let dados = [
         ano: 2010,
         link: "https://www.adorocinema.com/filmes/filme-176684/",
         tags: "pequenos arrietty sho ghibli"
+    },
+    {
+        titulo: "O Menino e a Garça",
+        trailer: "https://youtu.be/hCg9h3ILzJ4",
+        sinopse: "Uma jornada emocionante de um menino que busca significado e conexão em um mundo pós-guerra, encontrando conforto e sabedoria em uma garça misteriosa.",
+        ano: 2024,
+        link: "https://www.adorocinema.com/filmes/filme-184989/",
+        tags: "menino garca guerra espiritualidade"
     }
 ];

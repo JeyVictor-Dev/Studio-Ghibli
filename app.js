@@ -1,4 +1,9 @@
 function pesquisar() {
+    const termoPesquisa = document.getElementById('campo-pesquisa').value;
+    if (termoPesquisa.trim() !== '') {
+      // Lógica para realizar a pesquisa
+      console.log('Pesquisando por:', termoPesquisa);
+    }
     let section = document.getElementById("resultados-pesquisa")
     console.log(section);
     

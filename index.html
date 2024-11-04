@@ -13,15 +13,14 @@
     </header>
     <main>
         <section>
-            <input type="text" placeholder="Digite o nome da animação" id="campo-pesquisa">
+            <input type="text" placeholder="Digite o nome da animação" id="campo-pesquisa" onkeydown="if(event.key === 'Enter' && this.value.trim() !== '') pesquisar();">
             <button onclick="pesquisar()">Pesquisar</button>
-        </section>
+          </section>
         <section class="resultados-pesquisa" id = "resultados-pesquisa">
         </section>
     </main>
     <footer>
-       <p>2024 - Animações do Studio Ghibli. Todos os direitos reservados</p>
-       <p>Entre em contato pelo email: jeyvictor@filmes.com.br</p> 
+       <p>&copy; 2024 - Animações do Studio Ghibli. Todos os direitos reservados <a href="https://github.com/JeyVictor-Dev" target="_blank">@JeyVictorDev</a></p>
     </footer> 
     <script src="dados.js"></script>
     <script src="app.js"></script>

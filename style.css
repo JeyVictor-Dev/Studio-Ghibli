@@ -21,7 +21,7 @@ body {
 /* Estiliza os títulos h1 */
 h1 {
     font-size: 2.5rem; /* Tamanho da fonte */
-    color: #1e5949; /* Cor do texto */
+    color: #31511E; /* Cor do texto */
     text-align: center; /* Alinha o texto ao centro */
     letter-spacing: 0.4rem; /* Espaçamento entre letras */
 }
@@ -46,12 +46,22 @@ section input {
     box-sizing: border-box; /* Inclui padding e border na largura total */
 }
 
+#campo-pesquisa {
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    padding-right: 30px; /* Espaço para a imagem */
+  }
+
+  #campo-pesquisa:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra mais intensa */
+  }
+
 /* Estiliza os botões dentro das seções */
 section button {
     padding: 0.8rem 1.2rem; /* Espaçamento interno do botão */
     border: none; /* Remove a borda padrão */
     border-radius: 1.5rem; /* Borda arredondada */
-    background-color: #1e5949; /* Cor de fundo do botão */
+    background-color: #31511E; /* Cor de fundo do botão */
     color: #F5F7F8; /* Cor do texto do botão */
     font-size: 1rem; /* Tamanho da fonte */
     cursor: pointer; /* Muda o cursor para indicar que é clicável */
@@ -59,7 +69,7 @@ section button {
 
 /* Adiciona efeito hover ao botão de pesquisa */
 section button:hover {
-    background-color: #1e5949; /* Muda a cor de fundo ao passar o mouse */
+    background-color: #A66E38; /* Muda a cor de fundo ao passar o mouse */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra mais intensa */
 }
 
@@ -75,7 +85,7 @@ section button:hover {
 
 /* Estiliza cada item de resultado */
 .item-resultado {
-    background: #e4debf; /* Cor de fundo dos itens */
+    background: #F6FCDF ; /* Cor de fundo dos itens */
     border-radius: 0.6rem; /* Borda arredondada */
     padding: 1rem; /* Espaçamento interno */
     margin-bottom: 1rem; /* Espaçamento abaixo dos itens */
@@ -85,37 +95,51 @@ section button:hover {
 /* Estiliza os títulos dentro dos itens de resultado */
 .item-resultado h2 {
     font-size: 1.5rem; /* Tamanho da fonte */
-    color: #3c927b; /* Cor do texto */
+    color: #A66E38; /* Cor do texto */
 }
 
 /* Estiliza os links dentro dos itens de resultado */
 .item-resultado a {
     text-decoration: none; /* Remove o sublinhado padrão dos links */
-    color: #089f77; /* Cor do texto dos links */
+    color: #859F3D; /* Cor do texto dos links */
 }
 
 /* Estiliza os links quando são passados o mouse sobre */
 .item-resultado a:hover {
     text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+    color: #687b32; /* Cor da fonte ao passar o mouse */
 }
 
 /* Estiliza a descrição meta dentro dos itens de resultado */
 .descricao-meta {
-    color: #45474B; /* Cor do texto */
+    color: #1A1A19; /* Cor do texto */
     margin: 0.5rem 0; /* Margem acima e abaixo */
 }
 
 /* Estiliza o rodapé da página */
 footer {
-    background-color: #fdfbf2; /* Cor de fundo do rodapé */
-    color: #45474B; /* Cor do texto */
-    text-align: center; /* Alinha o texto ao centro */
-    padding: 20px 0; /* Espaçamento interno */
-    min-height: 60px;
-    width: 100%; /* Largura total da página */
-    position: relative; /* Posiciona o rodapé */
-    bottom: 0; /* Alinha ao fundo da página */
-    font-size: 1rem; /* Tamanho da fonte */
+    background-color: #ABBA7C;
+    color: #45474B;
+    text-align: center;
+    padding: 10px 0;
+    min-height: 40px;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    font-size: 0.9rem;
+    font-family: Arial, sans-serif;
+    border-top: 1px solid #ccc; /* Borda superior */
+  }
+
+  footer a {
+    color: #fff; /* Cor da fonte dos links */
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+    transition: all 0.3s ease; /* Adiciona uma transição suave */
+}
+
+footer a:hover {
+    color: #000; /* Cor da fonte ao passar o mouse */
+    text-decoration: underline; /* Adiciona um sublinhado ao passar o mouse */
 }
 
 @media (max-width: 768px) {
@@ -136,6 +160,10 @@ footer {
 
     .item-resultado h2 {
         font-size: 1.3rem; /* Tamanho da fonte dos títulos em telas menores */
+    }
+
+    footer {
+        font-size: 0.9rem; /* Tamanho da fonte do rodapé em telas pequenas */
     }
 }
 
